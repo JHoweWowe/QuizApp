@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:text="@string/app_name_final"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Choose the best answer(s) corresponding to the picture shown above"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bak_chor_mee_image"
+            android:paddingTop="8dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bakchormee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hokkien Prawn Mee"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_1_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bak Chor Mee"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/question_1_c"
+                android:text="Wanton Mee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_1_d"
+                android:text="Laksa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mee_rebus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chinese Style Spaghetti"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_2_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mee Rebus"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_2_c"
+                android:text="Mee siam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_2_d"
+                android:text="Beehoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <ImageView
+            android:src="@drawable/chicken_rice"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_3_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Butter Rice"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_3_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curry rice"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_3_c"
+                android:text="Duck rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_3_d"
+                android:text="Chicken rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <ImageView
+            android:src="@drawable/chinese_carrot_cake"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_4_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black carrot cake"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_4_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White carrot cake"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_4_c"
+                android:text="Char Kway Teow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_4_d"
+                android:text="American carrot cake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <ImageView
+            android:src="@drawable/nasi_biryani"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/question_5_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi biryani"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_5_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasi lemak"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_5_c"
+                android:text="Nasi goreng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <RadioButton
+                android:id="@+id/question_5_d"
+                android:text="Mee goreng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <ImageView
+            android:src="@drawable/bak_kut_teh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp"/>
+
+        <CheckBox
+            android:id="@+id/question_6_a"
+            android:text="Pork ribs soup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <CheckBox
+            android:id="@+id/question_6_b"
+            android:text="Pork intestine soup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <CheckBox
+            android:id="@+id/question_6_c"
+            android:text="肉骨茶"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <CheckBox
+            android:id="@+id/question_6_d"
+            android:text="Bak kut teh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:src="@drawable/satay"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <CheckBox
+            android:id="@+id/question_7_a"
+            android:text="Pork satay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/question_7_b"
+            android:text="Chicken satay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/question_7_c"
+            android:text="Beef satay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/question_7_d"
+            android:text="Lamb satay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:src="@drawable/mee_siam"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Type the answer for the name of this food:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/question_8"
+            android:hint="Write the answer without captialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Submit"
+            android:onClick="checkScore"
+            android:textAllCaps="true"
+            android:id="@+id/submit_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
